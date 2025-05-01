@@ -48,12 +48,6 @@ header {
     display: none;
 }
 
-#vision > div {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
 
 #main-visual{
     position: relative;
@@ -250,6 +244,11 @@ h3 {
     margin: 80px auto 80px auto;
 }
 
+#vision > div {
+     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 
 .vision-box {
@@ -475,7 +474,7 @@ footer{
     font-size: 26px;
 }
 
-#mission-tittle >p {
+#mission-title >p {
     position: absolute;
     top: 350px;
     left: 100px;
