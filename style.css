@@ -593,7 +593,7 @@ footer{
     border-radius: 0 432px 0 0;
 }
 
-.product-section-left .product-read{
+.product-section-left .product-read {
     width: 50%;
     flex-grow: 1;
 }
@@ -602,11 +602,17 @@ footer{
     margin-bottom: 0;
 }
 
-.product-section-right{
+.product-section-right {
     justify-content: space-between;
 }
 
-.product-section-right .product-read{
+.product-section-right .product-section-img img {
+    width: 100%;
+    padding: 0 0 30px 40px;
+    border-radius: 432px 0 0 0;
+}
+
+.product-section-right .product-read {
     width: 500px;
 }
 
